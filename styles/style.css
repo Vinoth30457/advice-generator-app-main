@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400,800&display=swap");
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+html {
+  font-size: 28px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+}
+
+/* global css */
+img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+:root {
+  --Light-Cyan: hsl(193, 38%, 86%);
+  --Neon-Green: hsl(150, 100%, 66%);
+  --Grayish-Blue: hsl(217, 19%, 38%);
+  --Dark-Grayish-Blue: hsl(217, 19%, 24%);
+  --Dark-Blue: hsl(218, 23%, 16%);
+}
+body {
+  min-height: 100vh;
+  width: 100vw;
+  background-color: var(--Dark-Blue);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  width: 12rem;
+  background-color: var(--Dark-Grayish-Blue);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.65rem;
+  padding: 1rem 0.75rem;
+  border-radius: 15px;
+}
+.card-title {
+  color: var(--Neon-Green);
+  font-size: 0.65rem;
+  letter-spacing: 5px;
+  font-weight: 400;
+}
+
+.advice-txt {
+  font-size: 0.85rem;
+  color: var(--Light-Cyan);
+  text-align: center;
+  font-weight: 800;
+}
+.dice-container {
+  width: 2.35rem;
+  height: 2.35rem;
+  background-color: var(--Neon-Green);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-bottom: -2.25rem;
+  border: none;
+  outline: none;
+}
+.dice {
+  width: 1rem;
+}
+.dice-container:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 16px var(--Neon-Green);
+}
+.divider-mobile {
+  display: block;
+}
+.divider-desktop {
+  display: none;
+}
+@media screen and (min-width: 576px) {
+}
+
+/* Medium devices (tablets) */
+
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops) */
+
+@media (min-width: 991px) {
+  .divider-mobile {
+    display: none;
+  }
+  .divider-desktop {
+    display: block;
+  }
+  .card {
+    width: 20rem;
+    gap: 1.5rem;
+  }
+  .advice-txt {
+    font-size: 1rem;
+  }
+}
+
+/* Extra large devices (large desktops) */
+
+@media (min-width: 1200px) {
+}
