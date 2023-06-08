@@ -20,5 +20,5 @@ Your users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Click here](https://github.com/Vinoth30457/advice-generator-app-main.git)
+- Live Site URL: [Click here](https://splendid-sopapillas-53415b.netlify.app)
